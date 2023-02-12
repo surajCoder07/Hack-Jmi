@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Wealthy</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/26bc67d4b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+
+
+
+    <nav>
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <img src="images/uniform3.png" alt="">
+            </div>
+            <i class="fa-solid fa-bars" id="menu"></i>
+            <ul>
+                <li><a href="../index.html">HOME</a> </li>
+                <li><a href="../services/services.html">OUR SERVICES</a> </li>
+                <li><a href="../about/about.html">ABOUT US</a> </li>
+                <a href="#" class="nav-btn ">LOG IN/SIGN UP</a>  
+            </ul>
+        </div>
+    </nav>
+
+
+
+   <!-- Signup / login  -->
+
+
+
+    <main>
+        
+        
+        <button id="signup-btn">Sign-up</button>
+        <div class="container">
+
+            <div class="box " id="login">
+                <h1>Log-in</h1>
+                <form action="noaction">
+                    <label for="user">Username</label> 
+                    <i class="fa-solid fa-user"></i>
+                    
+                    <input type="text" name="name" id="user" class="" placeholder="  Type your username" required>
+                    
+                    <label for="pass"> Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="text" id="pass" placeholder=" Type your password">
+
+                    <a href="#"> Forget password? </a>
+
+                    <button class="btn">LOGIN</button>
+                </form>
+            </div>
+
+            <div class="box none" id="signup">
+                
+                <h1>Sign-up</h1>
+                <form action="noaction">
+                    <label for="user">Username</label> 
+                    <i class="fa-solid fa-user"></i>
+                    
+                    <input type="text" name="name" id="user" class="" placeholder="  Type your username" required>
+                    
+                    <label for="pass"> Email ID</label>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" id="pass" placeholder=" Type your email">
+                    
+
+
+                    <label for="pass"> Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="text" id="pass" placeholder=" Create a password">
+
+
+                    <button class="btn">SIGN UP</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+
+     <a href="#" class="side-btn"><i class="fa-solid fa-arrow-up"></i></a>
+        
+
+    <script src="../script.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
